@@ -3,6 +3,7 @@ import os
 from flask_pymongo import PyMongo
 
 
+
 app = Flask(__name__)
 
 app.config["MONGO_DBNAME"] = os.environ.get("MONGO_DBNAME")
